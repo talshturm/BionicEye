@@ -9,6 +9,6 @@ class Video(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     observation_point = Column(String, index=True, nullable=False)
-    storage_path = Column(String, nullable=False)
+    os_path = Column(String, nullable=False)
     frame_count = Column(Integer, nullable=False)
     frames = relationship("Frame", back_populates="video")
