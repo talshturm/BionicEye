@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class FrameBase(BaseModel):
-    storage_path: str
+    os_path: str
     frame_index: int
 
 
