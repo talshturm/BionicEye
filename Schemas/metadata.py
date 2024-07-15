@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from typing import List
-from Models.frame import Frame
+
+from .frame import Frame
 
 
 class MetadataBase(BaseModel):

@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey
-from sqlalchemy.orm import declarative_base, relationship
-
-Base = declarative_base()
+from sqlalchemy.orm import relationship
+from database import Base
 
 
 class Frame(Base):
@@ -11,7 +10,7 @@ class Frame(Base):
     video_id = Column(Integer, ForeignKey('videos.id'))
     os_path = Column(String, nullable=False)
     frame_index = Column(Integer, nullable=False)
-    metadata_id = Column(Integer, ForeignKey('metadata.id'))
+    frame_metadata_id = Column(Integer, ForeignKey('metadata.id'))
 
     video = relationship("Video", back_populates="frames")
-    metadata = relationship("Metadata", back_populates="frames")
+    frame_metadata = relationship("Metadata", back_populates="frames")

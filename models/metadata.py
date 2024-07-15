@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, Boolean, Float
-from sqlalchemy.orm import declarative_base, relationship
-
-Base = declarative_base()
+from sqlalchemy.orm import relationship
+from database import Base
 
 
 class Metadata(Base):
@@ -11,4 +10,5 @@ class Metadata(Base):
     frame_tag = Column(Boolean, nullable=False)
     fov = Column(Float, nullable=False)
     azimuth = Column(Float, nullable=False)
-    frames = relationship("Frame", back_populates="metadata")
+
+    frames = relationship("Frame", back_populates="frame_metadata")
