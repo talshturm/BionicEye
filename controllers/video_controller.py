@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from services.video_service import process_upload
+from services.video_service import upload_video_service
 
 
 async def upload_video(local_path: str, db: Session):
-    return await process_upload(local_path, db)
+    return await upload_video_service(local_path, db)

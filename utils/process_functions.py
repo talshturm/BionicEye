@@ -1,10 +1,14 @@
 import os
+from typing import List, Any
+
 import cv2
 import boto3
 from botocore.exceptions import NoCredentialsError
+from cv2 import Mat
+from numpy import ndarray, dtype
 
 
-def extract_frames(video_path):
+def extract_frames(video_path) -> list[ndarray | Any]:
     vidcap = cv2.VideoCapture(video_path)
     success, image = vidcap.read()
     frames = []
