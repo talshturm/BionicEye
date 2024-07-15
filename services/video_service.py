@@ -1,18 +1,20 @@
 import os
+from typing import Dict
+
 from sqlalchemy.orm import Session
 from repositories.video_repository import create_video_repo
 from utils.process_functions import extract_frames
 from frame_service import create_frame_service
 
 
-async def upload_video_service(local_path: str, db: Session):
+async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
     frames = extract_frames(local_path)
     observation_point = os.path.basename(local_path).split("_")[0]
     frame_count = len(frames)
 
     video_data = {
         "observation_point": observation_point,
-        "storage_path": local_path,
+        "os_path": local_path,
         "frame_count": frame_count
     }
     video = create_video_repo(video_data, db)

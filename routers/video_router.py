@@ -7,5 +7,5 @@ router = APIRouter()
 
 
 @router.post("/videos/upload")
-async def upload(local_path: str, db: Session = Depends(get_db)):
+async def upload(local_path: str, db: Session = Depends(get_db)) -> None:
     return await upload_video(local_path, db)

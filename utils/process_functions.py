@@ -1,11 +1,10 @@
 import os
-from typing import List, Any
+from typing import Any
 
 import cv2
 import boto3
 from botocore.exceptions import NoCredentialsError
-from cv2 import Mat
-from numpy import ndarray, dtype
+from numpy import ndarray
 
 
 def extract_frames(video_path) -> list[ndarray | Any]:
@@ -18,7 +17,7 @@ def extract_frames(video_path) -> list[ndarray | Any]:
     return frames
 
 
-def upload_to_os(frame, video_id, frame_index):
+def upload_to_os(frame, video_id, frame_index) -> str | None:
     s3 = boto3.client('s3')
     frame_path = f"frames/{video_id}_{frame_index}.jpg"
     local_path = f"temp/{video_id}_{frame_index}.jpg"
