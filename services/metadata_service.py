@@ -1,5 +1,4 @@
-from boto3 import Session
-
+from sqlalchemy.orm import Session
 from models import Metadata
 from utils.given_functions import is_frame_tagged, generate_metadata
 from repositories.frame_repository import create_metadata_repo

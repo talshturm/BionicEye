@@ -1,6 +1,4 @@
 import os
-from typing import Dict
-
 from sqlalchemy.orm import Session
 from repositories.video_repository import create_video_repo
 from utils.process_functions import extract_frames

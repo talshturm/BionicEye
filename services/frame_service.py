@@ -1,4 +1,4 @@
-from boto3 import Session
+from sqlalchemy.orm import Session
 from utils.process_functions import upload_to_os
 from repositories.frame_repository import create_frame_repo
 from metadata_service import create_metadata_service
