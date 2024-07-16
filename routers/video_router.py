@@ -31,12 +31,3 @@ def get_all_paths(video_id: int, db: Session = Depends(get_db)) -> str:
         return video_path
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-
-@router.get("/videos/{video_id}/frames")
-def get_frames_paths(video_id: int, db: Session = Depends(get_db)) -> list[str]:
-    try:
-        frames_paths = get_video_frames(video_id, db)
-        return frames_paths
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))

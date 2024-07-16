@@ -1,11 +1,12 @@
 from database import engine, Base
 from models import Frame, Metadata, Video
 from fastapi import FastAPI
-from routers import video_router
+from routers import video_router, frame_router
 
 app = FastAPI()
 Base.metadata.create_all(bind=engine)
 app.include_router(video_router.router)
+app.include_router(frame_router.router)
 
 
 @app.get("/")
