@@ -16,7 +16,7 @@ def get_frames_paths(video_id: int, db: Session = Depends(get_db)) -> list[str]:
 
 
 @router.get("/videos/{video_id}/frames/{frame_index}")
-def get_frames_paths(video_id: int, frame_index: int, db: Session = Depends(get_db)) -> list[str]:
+def get_frames_paths(video_id: int, frame_index: int, db: Session = Depends(get_db)) -> str:
     try:
         frame_paths = get_frame(video_id, frame_index, db)
         return frame_paths
