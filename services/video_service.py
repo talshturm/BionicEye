@@ -1,6 +1,6 @@
 import os
 from sqlalchemy.orm import Session
-from repositories.video_repository import create_video_repo, get_paths_repo
+from repositories.video_repository import create_video_repo, get_paths_repo, get_video_path_repo
 from utils.process_functions import extract_frames, upload_video_to_os
 from services.frame_service import create_frame_service
 
@@ -28,3 +28,7 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
 
 def get_paths_service(db: Session) -> list[str]:
     return get_paths_repo(db)
+
+
+def get_video_path_service(video_id, db: Session) -> str:
+    return get_video_path_repo(video_id, db)

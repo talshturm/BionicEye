@@ -1,6 +1,6 @@
-from typing import List, Any
-from sqlalchemy import Column, Row
+from fastapi import Depends
 from sqlalchemy.orm import Session
+from database import get_db
 from models.video import Video
 
 
@@ -19,3 +19,7 @@ def create_video_repo(video_data: dict, db: Session) -> Video:
 def get_paths_repo(db: Session) -> list[str]:
     video_paths = db.query(Video.os_path).all()
     return [path[0] for path in video_paths]
+
+
+def get_video_path_repo(video_id, db: Session) -> str:
+    return db.query(Video.os_path).filter_by(id=video_id).first()[0]
