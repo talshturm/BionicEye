@@ -1,6 +1,5 @@
 import os
 from typing import Any
-
 import cv2
 import boto3
 from botocore.exceptions import NoCredentialsError
@@ -39,7 +38,7 @@ def upload_frame_to_os(frame, video_id, frame_index) -> str:
         return "upload failed"
     finally:
         os.remove(local_path)
-    return f"frames//{frame_path}"
+    return f"frames/{frame_path}"
 
 
 def upload_video_to_os(video_path) -> str:
@@ -60,4 +59,4 @@ def upload_video_to_os(video_path) -> str:
     except NoCredentialsError:
         return "upload failed"
 
-    return f"videos//{video_path}"
+    return f"videos/{video_path}"

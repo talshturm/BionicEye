@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.post("/videos/{local_path}")
-async def upload(local_path: str, db: Session = Depends(get_db)):
+async def upload(local_path: str, db: Session = Depends(get_db)) -> dict[str, str]:
     try:
         await upload_video(local_path, db)
         return {"message": "Video processed successfully"}
@@ -16,9 +16,9 @@ async def upload(local_path: str, db: Session = Depends(get_db)):
 
 
 @router.get("/videos")
-async def get_all_paths(db: Session = Depends(get_db)):
+def get_all_paths(db: Session = Depends(get_db)) -> list[str]:
     try:
-        await get_paths(db)
-        return {"message": "paths returned successfully"}
+        video_paths = get_paths(db)
+        return video_paths
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -1,3 +1,5 @@
+from typing import List, Any
+from sqlalchemy import Column, Row
 from sqlalchemy.orm import Session
 from models.video import Video
 
@@ -12,3 +14,8 @@ def create_video_repo(video_data: dict, db: Session) -> Video:
     db.commit()
     db.refresh(db_video)
     return db_video
+
+
+def get_paths_repo(db: Session) -> list[str]:
+    video_paths = db.query(Video.os_path).all()
+    return [path[0] for path in video_paths]
