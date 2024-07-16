@@ -10,5 +10,6 @@ class Metadata(Base):
     frame_tag = Column(Boolean, nullable=False)
     fov = Column(Float, nullable=False)
     azimuth = Column(Float, nullable=False)
+    elevation = Column(Float, nullable=False)
 
     frames = relationship("Frame", back_populates="frame_metadata")
