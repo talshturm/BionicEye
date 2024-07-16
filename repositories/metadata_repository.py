@@ -19,8 +19,8 @@ def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation: float
     return metadata
 
 
-def get_existing_metadata(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> Type[Metadata] | None:
-    print(tag, fov, elevation, azimuth)
+def get_existing_metadata(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> Type[
+                                                                                                       Metadata] | None:
     return db.query(Metadata).filter_by(frame_tag=tag,
                                         fov=fov,
                                         azimuth=azimuth,

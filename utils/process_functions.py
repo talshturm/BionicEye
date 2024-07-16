@@ -17,15 +17,47 @@ def extract_frames(video_path) -> list[ndarray | Any]:
     return frames
 
 
-def upload_frame_to_os(frame, video_id, frame_index) -> str | None:
-    s3 = boto3.client('s3')
-    frame_path = f"frames/{video_id}_{frame_index}.jpg"
+def upload_frame_to_os(frame, video_id, frame_index) -> str:
+    minio_endpoint = 'http://localhost:9000'
+    minio_access_key = 'talsht'
+    minio_secret_key = '12345678'
+    bucket_name = 'frames'
+
+    s3 = boto3.client(
+        's3',
+        endpoint_url=minio_endpoint,
+        aws_access_key_id=minio_access_key,
+        aws_secret_access_key=minio_secret_key,
+    )
+
+    frame_path = f"{video_id}_{frame_index}.jpg"
     local_path = f"temp/{video_id}_{frame_index}.jpg"
     cv2.imwrite(local_path, frame)
     try:
-        s3.upload_file(local_path, "frames", frame_path)
+        s3.upload_file(local_path, bucket_name, frame_path)
     except NoCredentialsError:
         return "upload failed"
     finally:
         os.remove(local_path)
-    return frame_path
+    return f"frames//{frame_path}"
+
+
+def upload_video_to_os(video_path) -> str:
+    minio_endpoint = 'http://localhost:9000'
+    minio_access_key = 'talsht'
+    minio_secret_key = '12345678'
+    bucket_name = 'videos'
+
+    s3 = boto3.client(
+        's3',
+        endpoint_url=minio_endpoint,
+        aws_access_key_id=minio_access_key,
+        aws_secret_access_key=minio_secret_key,
+    )
+
+    try:
+        s3.upload_file(video_path, bucket_name, video_path)
+    except NoCredentialsError:
+        return "upload failed"
+
+    return f"videos//{video_path}"
