@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from database import get_db
-from controllers.video_controller import get_video_frames
+from controllers.frame_controller import get_video_frames
 
 router = APIRouter()
 

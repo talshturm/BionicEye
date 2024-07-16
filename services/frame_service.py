@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from repositories.metadata_repository import create_metadata_repo
 from utils import generate_metadata, is_frame_tagged
 from utils.process_functions import upload_frame_to_os
-from repositories.frame_repository import create_frame_repo
+from repositories.frame_repository import create_frame_repo, get_frames_repo
 
 
 async def create_frame_service(index: int, frame, video_id: int, db: Session) -> None:
@@ -20,3 +20,7 @@ async def create_frame_service(index: int, frame, video_id: int, db: Session) ->
         "metadata_id": metadata.id
     }
     create_frame_repo(frame_data, db)
+
+
+def get_frames_service(video_id: int, db: Session) -> list[str]:
+    return get_frames_repo(video_id, db)
