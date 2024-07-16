@@ -1,4 +1,6 @@
 import base64
+from typing import Tuple, Any
+
 import cv2
 from io import BytesIO
 import numpy as np
@@ -28,7 +30,7 @@ def is_frame_tagged(frame):
     return len(matches[0]) != 0
 
 
-def generate_metadata(frame):
+def generate_metadata(frame) -> tuple[Any, Any, Any]:
     """
     Generates metadata for a given frame.
 

@@ -5,14 +5,14 @@ from repositories.metadata_repository import create_metadata_repo
 
 
 async def create_metadata_service(frame, db: Session) -> Metadata:
-    metadata_info = generate_metadata(frame)
+    fov, azimuth, elevation = generate_metadata(frame)
     tag = is_frame_tagged(frame)
 
     metadata_data = {
         "tag": tag,
-        "fov": metadata_info["fov"],
-        "azimuth": metadata_info["azimuth"],
-        "elevation": metadata_info["elevation"]
+        "fov": fov,
+        "azimuth": azimuth,
+        "elevation": elevation
     }
     metadata = create_metadata_repo(metadata_data, db)
 

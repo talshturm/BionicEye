@@ -17,7 +17,7 @@ def extract_frames(video_path) -> list[ndarray | Any]:
     return frames
 
 
-def upload_to_os(frame, video_id, frame_index) -> str | None:
+def upload_frame_to_os(frame, video_id, frame_index) -> str | None:
     s3 = boto3.client('s3')
     frame_path = f"frames/{video_id}_{frame_index}.jpg"
     local_path = f"temp/{video_id}_{frame_index}.jpg"
@@ -25,6 +25,7 @@ def upload_to_os(frame, video_id, frame_index) -> str | None:
     try:
         s3.upload_file(local_path, "frames", frame_path)
     except NoCredentialsError:
-        return None
-    os.remove(local_path)
+        return "upload failed"
+    finally:
+        os.remove(local_path)
     return frame_path

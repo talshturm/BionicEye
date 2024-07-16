@@ -1,13 +1,17 @@
 from sqlalchemy.orm import Session
-from utils.process_functions import upload_to_os
+from repositories.metadata_repository import create_metadata_repo
+from utils import generate_metadata, is_frame_tagged
+from utils.process_functions import upload_frame_to_os
 from repositories.frame_repository import create_frame_repo
-from metadata_service import create_metadata_service
 
 
 async def create_frame_service(index: int, frame, video_id: int, db: Session) -> None:
-    frame_path = upload_to_os(frame, video_id, index)
+    frame_path = upload_frame_to_os(frame, video_id, index)
 
-    metadata = create_metadata_service(frame, db)
+    fov, azimuth, elevation = generate_metadata(frame)
+    tag = is_frame_tagged(frame)
+
+    metadata = create_metadata_repo(tag, fov, azimuth, elevation, db)
 
     frame_data = {
         "video_id": video_id,

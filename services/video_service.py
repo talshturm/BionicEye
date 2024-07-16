@@ -2,7 +2,7 @@ import os
 from sqlalchemy.orm import Session
 from repositories.video_repository import create_video_repo
 from utils.process_functions import extract_frames
-from frame_service import create_frame_service
+from services.frame_service import create_frame_service
 
 
 async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:

@@ -1,16 +1,27 @@
+from typing import Type
+
 from sqlalchemy.orm import Session
+
+from models import Metadata
 from models.metadata import Metadata
 
 
-def create_metadata_repo(metadata_data: dict, db: Session) -> Metadata:
-    db_metadata = Metadata(
-        frame_tag=metadata_data["tag"],
-        fov=metadata_data["fov"],
-        azimuth=metadata_data["azimuth"],
-        elevation=metadata_data["elevation"]
-    )
-    db.add(db_metadata)
-    db.commit()
+def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> Type[
+                                                                                                      Metadata] | Metadata:
+    existing_metadata = get_existing_metadata(tag, fov, azimuth, elevation, db)
+    if existing_metadata:
+        return existing_metadata
 
-    db.refresh(db_metadata)
-    return db_metadata
+    metadata = Metadata(frame_tag=tag, fov=fov, azimuth=azimuth, elevation=elevation)
+    db.add(metadata)
+    db.commit()
+    db.refresh(metadata)
+    return metadata
+
+
+def get_existing_metadata(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> Type[Metadata] | None:
+    print(tag, fov, elevation, azimuth)
+    return db.query(Metadata).filter_by(frame_tag=tag,
+                                        fov=fov,
+                                        azimuth=azimuth,
+                                        elevation=elevation).first()
