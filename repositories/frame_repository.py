@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from models.frame import Frame
 
 
-def create_frame_repo(frame_data: dict, db: Session):
+def create_frame_repo(frame_data: dict, db: Session) -> Frame:
     db_frame = Frame(
         video_id=frame_data["video_id"],
         os_path=frame_data["os_path"],

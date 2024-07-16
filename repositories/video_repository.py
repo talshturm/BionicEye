@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from models.video import Video
 
 
-def create_video_repo(video_data: dict, db: Session):
+def create_video_repo(video_data: dict, db: Session) -> Video:
     db_video = Video(
         observation_point=video_data["observation_point"],
         os_path=video_data["os_path"],

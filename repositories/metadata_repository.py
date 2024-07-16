@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from models.metadata import Metadata
 
 
-def create_metadata_repo(metadata_data: dict, db: Session):
+def create_metadata_repo(metadata_data: dict, db: Session) -> Metadata:
     db_metadata = Metadata(
         frame_tag=metadata_data["tag"],
         fov=metadata_data["fov"],
