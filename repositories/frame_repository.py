@@ -19,3 +19,7 @@ def create_frame_repo(frame_data: dict, db: Session) -> Frame:
 def get_frames_repo(video: int, db: Session) -> list[str]:
     frames_paths = db.query(Frame.os_path).filter_by(video_id=video)
     return [path[0] for path in frames_paths]
+
+
+def get_frame_repo(video: int, frame: int, db: Session) -> str:
+    return db.query(Frame.os_path).filter_by(video_id=video, frame_index=frame).first()[0]
