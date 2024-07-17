@@ -1,5 +1,7 @@
 from sqlalchemy.orm import Session
+from models import Metadata
 from models.frame import Frame
+from utils.process_functions import remove_threat_frames_from_os
 
 
 def create_frame_repo(frame_data: dict, db: Session) -> Frame:
@@ -26,4 +28,5 @@ def get_frame_repo(video: int, frame: int, db: Session) -> str:
 
 
 def remove_threats_repo(video: int, db: Session) -> None:
-    pass
+    frames = db.query(Frame.os_path).join(Metadata).filter(Frame.video_id == video, Metadata.frame_tag).all()
+    remove_threat_frames_from_os([path[0] for path in frames])

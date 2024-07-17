@@ -67,6 +67,7 @@ def remove_threat_frames_from_os(frames: list[str]) -> None:
 
     try:
         for frame in frames:
-            s3.delete_object(Bucket=bucket_name, Key=frame)
+            frame_path = frame.split("/")[1]
+            s3.delete_object(Bucket=bucket_name, Key=frame_path)
     except NoCredentialsError:
         raise NoCredentialsError
