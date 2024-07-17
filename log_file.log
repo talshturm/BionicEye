@@ -1,2 +1,8 @@
 07/17/2024 03:28:01 - repositories.frame_repository - INFO - trying to remove 25 frames of video 1 tagged as threats from os
 07/17/2024 03:28:01 - routers.frame_router - INFO - success removing threat frames of video 1 from os
+07/17/2024 05:02:06 - repositories.frame_repository - INFO - trying to fetch frames of video 1
+07/17/2024 05:02:06 - routers.frame_router - INFO - success fetching 467 frames of video 1
+07/17/2024 05:02:30 - repositories.frame_repository - INFO - trying to fetch frame 112 of video 1
+07/17/2024 05:02:30 - routers.frame_router - INFO - success fetching frame 112 of video 1
+07/17/2024 05:03:00 - repositories.frame_repository - INFO - trying to fetch frame 500 of video 1
+07/17/2024 05:03:00 - routers.frame_router - ERROR - error fetching frame 500 of video 1
