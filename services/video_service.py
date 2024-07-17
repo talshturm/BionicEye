@@ -1,7 +1,7 @@
 import os
 from sqlalchemy.orm import Session
 from repositories.video_repository import create_video_repo, get_paths_repo, get_video_path_repo
-from utils.process_functions import extract_frames, upload_video_to_os
+from utils.process_functions import extract_frames, upload_video_to_os, remove_video_from_os
 from services.frame_service import create_frame_service
 
 
@@ -30,5 +30,9 @@ def get_paths_service(db: Session) -> list[str]:
     return get_paths_repo(db)
 
 
-def get_video_path_service(video_id, db: Session) -> str:
+def get_video_path_service(video_id: int, db: Session) -> str:
     return get_video_path_repo(video_id, db)
+
+
+def remove_video_service(video_path: str) -> None:
+    remove_video_from_os(video_path)

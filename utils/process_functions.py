@@ -59,5 +59,5 @@ def remove_video_from_os(video_path) -> str:
     try:
         s3.delete_object(Bucket=bucket_name, Key=video_path)
     except NoCredentialsError:
-        return "removal failed"
+        raise NoCredentialsError
     return "removal succeeded"
