@@ -3,6 +3,13 @@ from sqlalchemy.orm import Session
 from repositories.video_repository import create_video_repo, get_paths_repo, get_video_path_repo
 from utils.process_functions import extract_frames, upload_video_to_os, remove_video_from_os
 from services.frame_service import create_frame_service
+import logging
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    datefmt='%m/%d/%Y %I:%M:%S',
+                    filename='log_file.log',
+                    level=logging.DEBUG)
 
 
 async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
@@ -11,6 +18,7 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
     frame_count = len(frames)
 
     video_path = upload_video_to_os(local_path)
+    logger.info(f"video of observation point: {observation_point} uploaded to os")
 
     video_data = {
         "observation_point": observation_point,
@@ -22,6 +30,8 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
 
     for index, frame in enumerate(frames):
         await create_frame_service(index, frame, video.id, db)
+
+    logger.info("frames added to os")
 
     return {"message": "Video uploaded successfully"}
 

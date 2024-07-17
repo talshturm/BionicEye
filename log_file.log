@@ -1,0 +1,8 @@
+07/17/2024 02:16:49 - services.video_service - INFO - fetching paths of video with id 1
+07/17/2024 02:48:24 - services.video_service - INFO - fetching paths of video with id 1
+07/17/2024 02:48:55 - routers.video_router - INFO - trying to fetch path of video with id 1
+07/17/2024 02:48:55 - services.video_service - INFO - fetching paths of video with id 1
+07/17/2024 02:48:55 - routers.video_router - INFO - success fetching path of video with id 1
+07/17/2024 02:49:10 - routers.video_router - INFO - trying to fetch path of video with id 3
+07/17/2024 02:49:10 - services.video_service - INFO - fetching paths of video with id 3
+07/17/2024 02:49:10 - routers.video_router - ERROR - error fetching path of video with id 3
