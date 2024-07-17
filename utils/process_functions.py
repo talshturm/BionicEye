@@ -27,7 +27,7 @@ def extract_frames(video_path: str) -> list[ndarray | Any]:
     return frames
 
 
-def upload_frame_to_os(frame, video_id: int, frame_index: int) -> str:
+def upload_frame_to_os(frame: ndarray, video_id: int, frame_index: int) -> str:
     bucket_name = 'frames'
 
     frame_path = f"{video_id}_{frame_index}.jpg"
