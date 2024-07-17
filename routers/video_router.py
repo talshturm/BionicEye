@@ -33,7 +33,7 @@ def get_all_paths(video_id: int, db: Session = Depends(get_db)) -> str:
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@router.delete("/videos/{video_path}")
+@router.delete("/{video_path}")
 def remove_video_from_os(video_path: str) -> dict[str, str]:
     try:
         remove_video(video_path)
