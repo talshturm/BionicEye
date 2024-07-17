@@ -23,3 +23,7 @@ def get_frames_repo(video: int, db: Session) -> list[str]:
 
 def get_frame_repo(video: int, frame: int, db: Session) -> str:
     return db.query(Frame.os_path).filter_by(video_id=video, frame_index=frame).first()[0]
+
+
+def remove_threats_repo(video: int, db: Session) -> None:
+    pass

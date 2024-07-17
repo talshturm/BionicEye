@@ -17,7 +17,7 @@ s3 = boto3.client(
 )
 
 
-def extract_frames(video_path) -> list[ndarray | Any]:
+def extract_frames(video_path: str) -> list[ndarray | Any]:
     vidcap = cv2.VideoCapture(video_path)
     success, image = vidcap.read()
     frames = []
@@ -27,7 +27,7 @@ def extract_frames(video_path) -> list[ndarray | Any]:
     return frames
 
 
-def upload_frame_to_os(frame, video_id, frame_index) -> str:
+def upload_frame_to_os(frame, video_id: int, frame_index: int) -> str:
     bucket_name = 'frames'
 
     frame_path = f"{video_id}_{frame_index}.jpg"
@@ -42,7 +42,7 @@ def upload_frame_to_os(frame, video_id, frame_index) -> str:
     return f"frames/{frame_path}"
 
 
-def upload_video_to_os(video_path) -> str:
+def upload_video_to_os(video_path: str) -> str:
     bucket_name = 'videos'
 
     try:
@@ -53,11 +53,20 @@ def upload_video_to_os(video_path) -> str:
     return f"videos/{video_path}"
 
 
-def remove_video_from_os(video_path) -> str:
+def remove_video_from_os(video_path: str) -> None:
     bucket_name = 'videos'
 
     try:
         s3.delete_object(Bucket=bucket_name, Key=video_path)
     except NoCredentialsError:
         raise NoCredentialsError
-    return "removal succeeded"
+
+
+def remove_threat_frames_from_os(frames: list[str]) -> None:
+    bucket_name = 'frames'
+
+    try:
+        for frame in frames:
+            s3.delete_object(Bucket=bucket_name, Key=frame)
+    except NoCredentialsError:
+        raise NoCredentialsError
