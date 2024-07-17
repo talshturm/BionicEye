@@ -2,6 +2,13 @@ from sqlalchemy.orm import Session
 from models import Metadata
 from models.frame import Frame
 from utils.process_functions import remove_threat_frames_from_os
+import logging
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    datefmt='%m/%d/%Y %I:%M:%S',
+                    filename='log_file.log',
+                    level=logging.INFO)
 
 
 def create_frame_repo(frame_data: dict, db: Session) -> Frame:
@@ -19,14 +26,17 @@ def create_frame_repo(frame_data: dict, db: Session) -> Frame:
 
 
 def get_frames_repo(video: int, db: Session) -> list[str]:
+    logger.info(f"trying to fetch frames of video {video}")
     frames_paths = db.query(Frame.os_path).filter_by(video_id=video)
     return [path[0] for path in frames_paths]
 
 
 def get_frame_repo(video: int, frame: int, db: Session) -> str:
+    logger.info(f"trying to fetch frame {frame} of video {video}")
     return db.query(Frame.os_path).filter_by(video_id=video, frame_index=frame).first()[0]
 
 
 def remove_threats_repo(video: int, db: Session) -> None:
     frames = db.query(Frame.os_path).join(Metadata).filter(Frame.video_id == video, Metadata.frame_tag).all()
+    logger.info(f"trying to remove {len(frames)} frames tagged as threats of video {video} from os")
     remove_threat_frames_from_os([path[0] for path in frames])
