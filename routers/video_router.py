@@ -17,7 +17,6 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 @router.post("/{local_path}")
 async def upload(local_path: str, db: Session = Depends(get_db)) -> dict[str, str]:
     try:
-        logger.info(f"trying to upload video {local_path}")
         await upload_video(local_path, db)
         logger.info(f"success uploading video {local_path}")
         return {"message": "Video processed successfully"}
@@ -29,9 +28,8 @@ async def upload(local_path: str, db: Session = Depends(get_db)) -> dict[str, st
 @router.get("/")
 def get_all_paths(db: Session = Depends(get_db)) -> list[str]:
     try:
-        logger.info("trying to fetch all videos paths")
         video_paths = get_paths(db)
-        logger.info("success fetching videos")
+        logger.info(f"success fetching {len(video_paths)} videos")
         return video_paths
     except Exception as e:
         logger.error(f"error fetching videos")
@@ -39,9 +37,8 @@ def get_all_paths(db: Session = Depends(get_db)) -> list[str]:
 
 
 @router.get("/{video_id}")
-def get_all_paths(video_id: int, db: Session = Depends(get_db)) -> str:
+def get_video(video_id: int, db: Session = Depends(get_db)) -> str:
     try:
-        logger.info(f"trying to fetch path of video with id {video_id}")
         video_path = get_video_path(video_id, db)
         logger.info(f"success fetching path of video with id {video_id}")
         return video_path
@@ -53,7 +50,6 @@ def get_all_paths(video_id: int, db: Session = Depends(get_db)) -> str:
 @router.delete("/{video_path}")
 def remove_video_from_os(video_path: str) -> dict[str, str]:
     try:
-        logger.info(f"trying to remove video {video_path} from os")
         remove_video(video_path)
         logger.info(f"success removing video {video_path} from os")
         return {"message": "Video removed successfully"}

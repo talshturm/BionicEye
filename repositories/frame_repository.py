@@ -12,6 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 
 def create_frame_repo(frame_data: dict, db: Session) -> Frame:
+    logger.info(f"trying to upload frame {frame_data["frame_index"]} of video {frame_data["video_id"]}")
     db_frame = Frame(
         video_id=frame_data["video_id"],
         os_path=frame_data["os_path"],
@@ -20,7 +21,6 @@ def create_frame_repo(frame_data: dict, db: Session) -> Frame:
     )
     db.add(db_frame)
     db.commit()
-
     db.refresh(db_frame)
     return db_frame
 
