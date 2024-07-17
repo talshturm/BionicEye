@@ -5,6 +5,17 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 from numpy import ndarray
 
+minio_endpoint = 'http://localhost:9000'
+minio_access_key = 'talsht'
+minio_secret_key = '12345678'
+
+s3 = boto3.client(
+    's3',
+    endpoint_url=minio_endpoint,
+    aws_access_key_id=minio_access_key,
+    aws_secret_access_key=minio_secret_key,
+)
+
 
 def extract_frames(video_path) -> list[ndarray | Any]:
     vidcap = cv2.VideoCapture(video_path)
@@ -17,17 +28,7 @@ def extract_frames(video_path) -> list[ndarray | Any]:
 
 
 def upload_frame_to_os(frame, video_id, frame_index) -> str:
-    minio_endpoint = 'http://localhost:9000'
-    minio_access_key = 'talsht'
-    minio_secret_key = '12345678'
     bucket_name = 'frames'
-
-    s3 = boto3.client(
-        's3',
-        endpoint_url=minio_endpoint,
-        aws_access_key_id=minio_access_key,
-        aws_secret_access_key=minio_secret_key,
-    )
 
     frame_path = f"{video_id}_{frame_index}.jpg"
     local_path = f"temp/{video_id}_{frame_index}.jpg"
@@ -42,17 +43,7 @@ def upload_frame_to_os(frame, video_id, frame_index) -> str:
 
 
 def upload_video_to_os(video_path) -> str:
-    minio_endpoint = 'http://localhost:9000'
-    minio_access_key = 'talsht'
-    minio_secret_key = '12345678'
     bucket_name = 'videos'
-
-    s3 = boto3.client(
-        's3',
-        endpoint_url=minio_endpoint,
-        aws_access_key_id=minio_access_key,
-        aws_secret_access_key=minio_secret_key,
-    )
 
     try:
         s3.upload_file(video_path, bucket_name, video_path)
@@ -60,3 +51,13 @@ def upload_video_to_os(video_path) -> str:
         return "upload failed"
 
     return f"videos/{video_path}"
+
+
+def remove_video_from_os(video_path) -> str:
+    bucket_name = 'videos'
+
+    try:
+        s3.delete_object(Bucket=bucket_name, Key=video_path)
+    except NoCredentialsError:
+        return "removal failed"
+    return "removal succeeded"
