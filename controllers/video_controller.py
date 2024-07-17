@@ -12,3 +12,7 @@ def get_paths(db: Session) -> list[str]:
 
 def get_video_path(video_id: int, db: Session) -> str:
     return get_video_path_service(video_id, db)
+
+
+def remove_video(video_path: str, db: Session) -> None:
+    remove_video_service(video_path, db)
