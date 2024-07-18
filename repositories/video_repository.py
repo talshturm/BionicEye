@@ -1,12 +1,6 @@
 from sqlalchemy.orm import Session
 from models.video import Video
-import logging
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    datefmt='%m/%d/%Y %I:%M:%S',
-                    filename='log_file.log',
-                    level=logging.INFO)
+from logger import logger
 
 
 def create_video_repo(video_data: dict, db: Session) -> Video:

@@ -2,15 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from database import get_db
 from controllers.frame_controller import get_video_frames, get_frame, remove_frames
-import logging
+from logger import logger
 
 router = APIRouter(prefix="/videos/{video_id}/frames")
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    datefmt='%m/%d/%Y %I:%M:%S',
-                    filename='log_file.log',
-                    level=logging.DEBUG)
 
 
 @router.get("/")

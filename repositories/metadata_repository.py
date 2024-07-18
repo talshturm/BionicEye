@@ -1,13 +1,7 @@
 from typing import Type
 from sqlalchemy.orm import Session
 from models.metadata import Metadata
-import logging
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    datefmt='%m/%d/%Y %I:%M:%S',
-                    filename='log_file.log',
-                    level=logging.INFO)
+from logger import logger
 
 
 def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> (

@@ -12,3 +12,9 @@ app.include_router(frame_router.router)
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the Video Upload API"}
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="localhost", port=8000)

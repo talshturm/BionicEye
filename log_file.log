@@ -6,3 +6,7 @@
 07/17/2024 05:02:30 - routers.frame_router - INFO - success fetching frame 112 of video 1
 07/17/2024 05:03:00 - repositories.frame_repository - INFO - trying to fetch frame 500 of video 1
 07/17/2024 05:03:00 - routers.frame_router - ERROR - error fetching frame 500 of video 1
+07/18/2024 09:56:56 - logger - INFO - trying to fetch frame 212 of video 2
+07/18/2024 09:56:56 - logger - INFO - success fetching frame 212 of video 2
+07/18/2024 10:01:47 - logger - INFO - trying to fetch frame 110 of video 2
+07/18/2024 10:01:47 - logger - INFO - success fetching frame 110 of video 2
