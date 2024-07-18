@@ -1,7 +1,8 @@
 import pytest
+from sqlalchemy.exc import IntegrityError
 from models import Frame
 from test_database import db_session, db_engine
-from repositories.frame_repository import create_frame_repo
+from repositories.frame_repository import create_frame_repo, get_frame_repo
 
 
 def test_create_frame_valid(db_session):
@@ -27,7 +28,7 @@ def test_create_frame_invalid_video(db_session):
 
     try:
         create_frame_repo(frame, db_session)
-    except Exception:
+    except IntegrityError:
         db_session.rollback()
 
 
@@ -40,7 +41,7 @@ def test_create_frame_invalid_metadata(db_session):
 
     try:
         create_frame_repo(frame, db_session)
-    except Exception:
+    except IntegrityError:
         db_session.rollback()
 
 
@@ -52,7 +53,7 @@ def test_create_frame_missing_field(db_session):
 
     try:
         create_frame_repo(frame, db_session)
-    except Exception:
+    except KeyError:
         db_session.rollback()
 
 
@@ -65,5 +66,37 @@ def test_create_frame_null_value(db_session):
 
     try:
         create_frame_repo(frame, db_session)
-    except Exception:
+    except IntegrityError:
+        db_session.rollback()
+
+
+def test_get_frame_valid_input(db_session):
+    video_id = 1
+    frame_index = 212
+    expected_path = "frames/1_212.jpg"
+
+    frame = get_frame_repo(video_id, frame_index, db_session)
+
+    assert expected_path == frame
+
+
+@pytest.mark.xfail
+def test_get_frame_invalid_input(db_session):
+    video_id = 0
+    frame_index = 212
+
+    try:
+        frame = get_frame_repo(video_id, frame_index, db_session)
+    except TypeError:
+        db_session.rollback()
+
+
+@pytest.mark.xfail
+def test_get_frame_non_existing_video(db_session):
+    video_id = 4
+    frame_index = 212
+
+    try:
+        frame = get_frame_repo(video_id, frame_index, db_session)
+    except TypeError:
         db_session.rollback()
