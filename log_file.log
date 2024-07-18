@@ -10,3 +10,1365 @@
 07/18/2024 09:56:56 - logger - INFO - success fetching frame 212 of video 2
 07/18/2024 10:01:47 - logger - INFO - trying to fetch frame 110 of video 2
 07/18/2024 10:01:47 - logger - INFO - success fetching frame 110 of video 2
+07/18/2024 11:21:46 - logger - INFO - video of observation point: TelAviv uploaded to os
+07/18/2024 11:21:46 - logger - INFO - trying to upload video of observation point TelAviv
+07/18/2024 11:21:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:46 - logger - INFO - trying to upload frame 0 of video 1
+07/18/2024 11:21:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:47 - logger - INFO - trying to upload frame 1 of video 1
+07/18/2024 11:21:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:47 - logger - INFO - trying to upload frame 2 of video 1
+07/18/2024 11:21:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:47 - logger - INFO - trying to upload frame 3 of video 1
+07/18/2024 11:21:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:47 - logger - INFO - trying to upload frame 4 of video 1
+07/18/2024 11:21:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:48 - logger - INFO - trying to upload frame 5 of video 1
+07/18/2024 11:21:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:48 - logger - INFO - trying to upload frame 6 of video 1
+07/18/2024 11:21:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:48 - logger - INFO - trying to upload frame 7 of video 1
+07/18/2024 11:21:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:48 - logger - INFO - trying to upload frame 8 of video 1
+07/18/2024 11:21:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:49 - logger - INFO - trying to upload frame 9 of video 1
+07/18/2024 11:21:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:49 - logger - INFO - trying to upload frame 10 of video 1
+07/18/2024 11:21:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:49 - logger - INFO - metadata already exists
+07/18/2024 11:21:49 - logger - INFO - trying to upload frame 11 of video 1
+07/18/2024 11:21:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:49 - logger - INFO - trying to upload frame 12 of video 1
+07/18/2024 11:21:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:49 - logger - INFO - metadata already exists
+07/18/2024 11:21:49 - logger - INFO - trying to upload frame 13 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 14 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 15 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - metadata already exists
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 16 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - metadata already exists
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 17 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 18 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - metadata already exists
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 19 of video 1
+07/18/2024 11:21:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:50 - logger - INFO - metadata already exists
+07/18/2024 11:21:50 - logger - INFO - trying to upload frame 20 of video 1
+07/18/2024 11:21:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:51 - logger - INFO - metadata already exists
+07/18/2024 11:21:51 - logger - INFO - trying to upload frame 21 of video 1
+07/18/2024 11:21:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:51 - logger - INFO - trying to upload frame 22 of video 1
+07/18/2024 11:21:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:51 - logger - INFO - metadata already exists
+07/18/2024 11:21:51 - logger - INFO - trying to upload frame 23 of video 1
+07/18/2024 11:21:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:51 - logger - INFO - metadata already exists
+07/18/2024 11:21:51 - logger - INFO - trying to upload frame 24 of video 1
+07/18/2024 11:21:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:51 - logger - INFO - trying to upload frame 25 of video 1
+07/18/2024 11:21:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:52 - logger - INFO - trying to upload frame 26 of video 1
+07/18/2024 11:21:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:52 - logger - INFO - metadata already exists
+07/18/2024 11:21:52 - logger - INFO - trying to upload frame 27 of video 1
+07/18/2024 11:21:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:52 - logger - INFO - trying to upload frame 28 of video 1
+07/18/2024 11:21:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:52 - logger - INFO - trying to upload frame 29 of video 1
+07/18/2024 11:21:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:52 - logger - INFO - trying to upload frame 30 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 31 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 32 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 33 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 34 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 35 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 36 of video 1
+07/18/2024 11:21:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:53 - logger - INFO - metadata already exists
+07/18/2024 11:21:53 - logger - INFO - trying to upload frame 37 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - metadata already exists
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 38 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - metadata already exists
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 39 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - metadata already exists
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 40 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 41 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - metadata already exists
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 42 of video 1
+07/18/2024 11:21:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:54 - logger - INFO - metadata already exists
+07/18/2024 11:21:54 - logger - INFO - trying to upload frame 43 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - metadata already exists
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 44 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - metadata already exists
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 45 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 46 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 47 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - metadata already exists
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 48 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - metadata already exists
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 49 of video 1
+07/18/2024 11:21:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:55 - logger - INFO - metadata already exists
+07/18/2024 11:21:55 - logger - INFO - trying to upload frame 50 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 51 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 52 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 53 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 54 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 55 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 56 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 57 of video 1
+07/18/2024 11:21:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:56 - logger - INFO - metadata already exists
+07/18/2024 11:21:56 - logger - INFO - trying to upload frame 58 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 59 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 60 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 61 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 62 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 63 of video 1
+07/18/2024 11:21:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:57 - logger - INFO - metadata already exists
+07/18/2024 11:21:57 - logger - INFO - trying to upload frame 64 of video 1
+07/18/2024 11:21:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:58 - logger - INFO - metadata already exists
+07/18/2024 11:21:58 - logger - INFO - trying to upload frame 65 of video 1
+07/18/2024 11:21:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:58 - logger - INFO - metadata already exists
+07/18/2024 11:21:58 - logger - INFO - trying to upload frame 66 of video 1
+07/18/2024 11:21:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:58 - logger - INFO - metadata already exists
+07/18/2024 11:21:58 - logger - INFO - trying to upload frame 67 of video 1
+07/18/2024 11:21:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:58 - logger - INFO - metadata already exists
+07/18/2024 11:21:58 - logger - INFO - trying to upload frame 68 of video 1
+07/18/2024 11:21:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:58 - logger - INFO - metadata already exists
+07/18/2024 11:21:58 - logger - INFO - trying to upload frame 69 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 70 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 71 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 72 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 73 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 74 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 75 of video 1
+07/18/2024 11:21:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:21:59 - logger - INFO - metadata already exists
+07/18/2024 11:21:59 - logger - INFO - trying to upload frame 76 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 77 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 78 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 79 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 80 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 81 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 82 of video 1
+07/18/2024 11:22:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:00 - logger - INFO - metadata already exists
+07/18/2024 11:22:00 - logger - INFO - trying to upload frame 83 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 84 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 85 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 86 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 87 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 88 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 89 of video 1
+07/18/2024 11:22:01 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:01 - logger - INFO - metadata already exists
+07/18/2024 11:22:01 - logger - INFO - trying to upload frame 90 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - metadata already exists
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 91 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - metadata already exists
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 92 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - metadata already exists
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 93 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 94 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 95 of video 1
+07/18/2024 11:22:02 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:02 - logger - INFO - metadata already exists
+07/18/2024 11:22:02 - logger - INFO - trying to upload frame 96 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 97 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 98 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 99 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 100 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 101 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 102 of video 1
+07/18/2024 11:22:03 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:03 - logger - INFO - metadata already exists
+07/18/2024 11:22:03 - logger - INFO - trying to upload frame 103 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 104 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 105 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 106 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 107 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 108 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 109 of video 1
+07/18/2024 11:22:04 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:04 - logger - INFO - metadata already exists
+07/18/2024 11:22:04 - logger - INFO - trying to upload frame 110 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 111 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 112 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 113 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 114 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 115 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 116 of video 1
+07/18/2024 11:22:05 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:05 - logger - INFO - metadata already exists
+07/18/2024 11:22:05 - logger - INFO - trying to upload frame 117 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 118 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 119 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 120 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 121 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 122 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 123 of video 1
+07/18/2024 11:22:06 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:06 - logger - INFO - metadata already exists
+07/18/2024 11:22:06 - logger - INFO - trying to upload frame 124 of video 1
+07/18/2024 11:22:07 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:07 - logger - INFO - metadata already exists
+07/18/2024 11:22:07 - logger - INFO - trying to upload frame 125 of video 1
+07/18/2024 11:22:07 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:07 - logger - INFO - metadata already exists
+07/18/2024 11:22:07 - logger - INFO - trying to upload frame 126 of video 1
+07/18/2024 11:22:07 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:07 - logger - INFO - metadata already exists
+07/18/2024 11:22:07 - logger - INFO - trying to upload frame 127 of video 1
+07/18/2024 11:22:07 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:07 - logger - INFO - metadata already exists
+07/18/2024 11:22:07 - logger - INFO - trying to upload frame 128 of video 1
+07/18/2024 11:22:07 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:07 - logger - INFO - metadata already exists
+07/18/2024 11:22:07 - logger - INFO - trying to upload frame 129 of video 1
+07/18/2024 11:22:08 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:08 - logger - INFO - metadata already exists
+07/18/2024 11:22:08 - logger - INFO - trying to upload frame 130 of video 1
+07/18/2024 11:22:08 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:08 - logger - INFO - metadata already exists
+07/18/2024 11:22:08 - logger - INFO - trying to upload frame 131 of video 1
+07/18/2024 11:22:08 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:08 - logger - INFO - metadata already exists
+07/18/2024 11:22:08 - logger - INFO - trying to upload frame 132 of video 1
+07/18/2024 11:22:08 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:08 - logger - INFO - metadata already exists
+07/18/2024 11:22:08 - logger - INFO - trying to upload frame 133 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - metadata already exists
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 134 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - metadata already exists
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 135 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - metadata already exists
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 136 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - metadata already exists
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 137 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - metadata already exists
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 138 of video 1
+07/18/2024 11:22:09 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:09 - logger - INFO - trying to upload frame 139 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 140 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 141 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 142 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 143 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 144 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 145 of video 1
+07/18/2024 11:22:10 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:10 - logger - INFO - metadata already exists
+07/18/2024 11:22:10 - logger - INFO - trying to upload frame 146 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 147 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 148 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 149 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 150 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 151 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 152 of video 1
+07/18/2024 11:22:11 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:11 - logger - INFO - metadata already exists
+07/18/2024 11:22:11 - logger - INFO - trying to upload frame 153 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 154 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 155 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 156 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 157 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 158 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 159 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 160 of video 1
+07/18/2024 11:22:12 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:12 - logger - INFO - metadata already exists
+07/18/2024 11:22:12 - logger - INFO - trying to upload frame 161 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 162 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 163 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 164 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 165 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 166 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 167 of video 1
+07/18/2024 11:22:13 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:13 - logger - INFO - metadata already exists
+07/18/2024 11:22:13 - logger - INFO - trying to upload frame 168 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 169 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 170 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 171 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 172 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 173 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 174 of video 1
+07/18/2024 11:22:14 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:14 - logger - INFO - metadata already exists
+07/18/2024 11:22:14 - logger - INFO - trying to upload frame 175 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 176 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 177 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 178 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 179 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 180 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 181 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 182 of video 1
+07/18/2024 11:22:15 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:15 - logger - INFO - metadata already exists
+07/18/2024 11:22:15 - logger - INFO - trying to upload frame 183 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 184 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 185 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 186 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 187 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 188 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 189 of video 1
+07/18/2024 11:22:16 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:16 - logger - INFO - metadata already exists
+07/18/2024 11:22:16 - logger - INFO - trying to upload frame 190 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 191 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 192 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 193 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 194 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 195 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 196 of video 1
+07/18/2024 11:22:17 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:17 - logger - INFO - metadata already exists
+07/18/2024 11:22:17 - logger - INFO - trying to upload frame 197 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 198 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 199 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 200 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 201 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 202 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 203 of video 1
+07/18/2024 11:22:18 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:18 - logger - INFO - metadata already exists
+07/18/2024 11:22:18 - logger - INFO - trying to upload frame 204 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 205 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 206 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 207 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 208 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 209 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 210 of video 1
+07/18/2024 11:22:19 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:19 - logger - INFO - metadata already exists
+07/18/2024 11:22:19 - logger - INFO - trying to upload frame 211 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - metadata already exists
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 212 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - metadata already exists
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 213 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 214 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 215 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - metadata already exists
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 216 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - metadata already exists
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 217 of video 1
+07/18/2024 11:22:20 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:20 - logger - INFO - metadata already exists
+07/18/2024 11:22:20 - logger - INFO - trying to upload frame 218 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 219 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 220 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 221 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 222 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 223 of video 1
+07/18/2024 11:22:21 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:21 - logger - INFO - metadata already exists
+07/18/2024 11:22:21 - logger - INFO - trying to upload frame 224 of video 1
+07/18/2024 11:22:22 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:22 - logger - INFO - metadata already exists
+07/18/2024 11:22:22 - logger - INFO - trying to upload frame 225 of video 1
+07/18/2024 11:22:22 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:22 - logger - INFO - metadata already exists
+07/18/2024 11:22:22 - logger - INFO - trying to upload frame 226 of video 1
+07/18/2024 11:22:22 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:22 - logger - INFO - trying to upload frame 227 of video 1
+07/18/2024 11:22:23 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:23 - logger - INFO - metadata already exists
+07/18/2024 11:22:23 - logger - INFO - trying to upload frame 228 of video 1
+07/18/2024 11:22:23 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:23 - logger - INFO - metadata already exists
+07/18/2024 11:22:23 - logger - INFO - trying to upload frame 229 of video 1
+07/18/2024 11:22:23 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:23 - logger - INFO - metadata already exists
+07/18/2024 11:22:23 - logger - INFO - trying to upload frame 230 of video 1
+07/18/2024 11:22:23 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:23 - logger - INFO - metadata already exists
+07/18/2024 11:22:23 - logger - INFO - trying to upload frame 231 of video 1
+07/18/2024 11:22:23 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:23 - logger - INFO - metadata already exists
+07/18/2024 11:22:23 - logger - INFO - trying to upload frame 232 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 233 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 234 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 235 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 236 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 237 of video 1
+07/18/2024 11:22:24 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:24 - logger - INFO - metadata already exists
+07/18/2024 11:22:24 - logger - INFO - trying to upload frame 238 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 239 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 240 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 241 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 242 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 243 of video 1
+07/18/2024 11:22:25 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:25 - logger - INFO - metadata already exists
+07/18/2024 11:22:25 - logger - INFO - trying to upload frame 244 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 245 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 246 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 247 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 248 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 249 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 250 of video 1
+07/18/2024 11:22:26 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:26 - logger - INFO - metadata already exists
+07/18/2024 11:22:26 - logger - INFO - trying to upload frame 251 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 252 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 253 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 254 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 255 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 256 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 257 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 258 of video 1
+07/18/2024 11:22:27 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:27 - logger - INFO - metadata already exists
+07/18/2024 11:22:27 - logger - INFO - trying to upload frame 259 of video 1
+07/18/2024 11:22:28 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:28 - logger - INFO - metadata already exists
+07/18/2024 11:22:28 - logger - INFO - trying to upload frame 260 of video 1
+07/18/2024 11:22:28 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:28 - logger - INFO - metadata already exists
+07/18/2024 11:22:28 - logger - INFO - trying to upload frame 261 of video 1
+07/18/2024 11:22:28 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:28 - logger - INFO - metadata already exists
+07/18/2024 11:22:28 - logger - INFO - trying to upload frame 262 of video 1
+07/18/2024 11:22:28 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:28 - logger - INFO - metadata already exists
+07/18/2024 11:22:28 - logger - INFO - trying to upload frame 263 of video 1
+07/18/2024 11:22:28 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:28 - logger - INFO - metadata already exists
+07/18/2024 11:22:28 - logger - INFO - trying to upload frame 264 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 265 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 266 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 267 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 268 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 269 of video 1
+07/18/2024 11:22:29 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:29 - logger - INFO - metadata already exists
+07/18/2024 11:22:29 - logger - INFO - trying to upload frame 270 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 271 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 272 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 273 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 274 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 275 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 276 of video 1
+07/18/2024 11:22:30 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:30 - logger - INFO - metadata already exists
+07/18/2024 11:22:30 - logger - INFO - trying to upload frame 277 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 278 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 279 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 280 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 281 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 282 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 283 of video 1
+07/18/2024 11:22:31 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:31 - logger - INFO - metadata already exists
+07/18/2024 11:22:31 - logger - INFO - trying to upload frame 284 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 285 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 286 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 287 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 288 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 289 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 290 of video 1
+07/18/2024 11:22:32 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:32 - logger - INFO - metadata already exists
+07/18/2024 11:22:32 - logger - INFO - trying to upload frame 291 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 292 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 293 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 294 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 295 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 296 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 297 of video 1
+07/18/2024 11:22:33 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:33 - logger - INFO - metadata already exists
+07/18/2024 11:22:33 - logger - INFO - trying to upload frame 298 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 299 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 300 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 301 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 302 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 303 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 304 of video 1
+07/18/2024 11:22:34 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:34 - logger - INFO - metadata already exists
+07/18/2024 11:22:34 - logger - INFO - trying to upload frame 305 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 306 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 307 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 308 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 309 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 310 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 311 of video 1
+07/18/2024 11:22:35 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:35 - logger - INFO - metadata already exists
+07/18/2024 11:22:35 - logger - INFO - trying to upload frame 312 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 313 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 314 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 315 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 316 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 317 of video 1
+07/18/2024 11:22:36 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:36 - logger - INFO - metadata already exists
+07/18/2024 11:22:36 - logger - INFO - trying to upload frame 318 of video 1
+07/18/2024 11:22:37 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:37 - logger - INFO - metadata already exists
+07/18/2024 11:22:37 - logger - INFO - trying to upload frame 319 of video 1
+07/18/2024 11:22:37 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:37 - logger - INFO - metadata already exists
+07/18/2024 11:22:37 - logger - INFO - trying to upload frame 320 of video 1
+07/18/2024 11:22:37 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:37 - logger - INFO - metadata already exists
+07/18/2024 11:22:37 - logger - INFO - trying to upload frame 321 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 322 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 323 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 324 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 325 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 326 of video 1
+07/18/2024 11:22:38 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:38 - logger - INFO - metadata already exists
+07/18/2024 11:22:38 - logger - INFO - trying to upload frame 327 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 328 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 329 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 330 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 331 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 332 of video 1
+07/18/2024 11:22:39 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:39 - logger - INFO - metadata already exists
+07/18/2024 11:22:39 - logger - INFO - trying to upload frame 333 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 334 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 335 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 336 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 337 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 338 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 339 of video 1
+07/18/2024 11:22:40 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:40 - logger - INFO - metadata already exists
+07/18/2024 11:22:40 - logger - INFO - trying to upload frame 340 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 341 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 342 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 343 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 344 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 345 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 346 of video 1
+07/18/2024 11:22:41 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:41 - logger - INFO - metadata already exists
+07/18/2024 11:22:41 - logger - INFO - trying to upload frame 347 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 348 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 349 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 350 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 351 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 352 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 353 of video 1
+07/18/2024 11:22:42 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:42 - logger - INFO - metadata already exists
+07/18/2024 11:22:42 - logger - INFO - trying to upload frame 354 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 355 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 356 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 357 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 358 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 359 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 360 of video 1
+07/18/2024 11:22:43 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:43 - logger - INFO - metadata already exists
+07/18/2024 11:22:43 - logger - INFO - trying to upload frame 361 of video 1
+07/18/2024 11:22:45 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:45 - logger - INFO - metadata already exists
+07/18/2024 11:22:45 - logger - INFO - trying to upload frame 362 of video 1
+07/18/2024 11:22:45 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:45 - logger - INFO - metadata already exists
+07/18/2024 11:22:45 - logger - INFO - trying to upload frame 363 of video 1
+07/18/2024 11:22:45 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:45 - logger - INFO - metadata already exists
+07/18/2024 11:22:45 - logger - INFO - trying to upload frame 364 of video 1
+07/18/2024 11:22:45 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:45 - logger - INFO - metadata already exists
+07/18/2024 11:22:45 - logger - INFO - trying to upload frame 365 of video 1
+07/18/2024 11:22:45 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:45 - logger - INFO - metadata already exists
+07/18/2024 11:22:45 - logger - INFO - trying to upload frame 366 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 367 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 368 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 369 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 370 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 371 of video 1
+07/18/2024 11:22:46 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:46 - logger - INFO - metadata already exists
+07/18/2024 11:22:46 - logger - INFO - trying to upload frame 372 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 373 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 374 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 375 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 376 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 377 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 378 of video 1
+07/18/2024 11:22:47 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:47 - logger - INFO - metadata already exists
+07/18/2024 11:22:47 - logger - INFO - trying to upload frame 379 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 380 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 381 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 382 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 383 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 384 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 385 of video 1
+07/18/2024 11:22:48 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:48 - logger - INFO - metadata already exists
+07/18/2024 11:22:48 - logger - INFO - trying to upload frame 386 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 387 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 388 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 389 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 390 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 391 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 392 of video 1
+07/18/2024 11:22:49 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:49 - logger - INFO - metadata already exists
+07/18/2024 11:22:49 - logger - INFO - trying to upload frame 393 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 394 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 395 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 396 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 397 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 398 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 399 of video 1
+07/18/2024 11:22:50 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:50 - logger - INFO - metadata already exists
+07/18/2024 11:22:50 - logger - INFO - trying to upload frame 400 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 401 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 402 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 403 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 404 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 405 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 406 of video 1
+07/18/2024 11:22:51 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:51 - logger - INFO - metadata already exists
+07/18/2024 11:22:51 - logger - INFO - trying to upload frame 407 of video 1
+07/18/2024 11:22:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:52 - logger - INFO - metadata already exists
+07/18/2024 11:22:52 - logger - INFO - trying to upload frame 408 of video 1
+07/18/2024 11:22:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:52 - logger - INFO - metadata already exists
+07/18/2024 11:22:52 - logger - INFO - trying to upload frame 409 of video 1
+07/18/2024 11:22:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:52 - logger - INFO - metadata already exists
+07/18/2024 11:22:52 - logger - INFO - trying to upload frame 410 of video 1
+07/18/2024 11:22:52 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:52 - logger - INFO - metadata already exists
+07/18/2024 11:22:52 - logger - INFO - trying to upload frame 411 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 412 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 413 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 414 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 415 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 416 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - metadata already exists
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 417 of video 1
+07/18/2024 11:22:53 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:53 - logger - INFO - trying to upload frame 418 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 419 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 420 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 421 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 422 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 423 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 424 of video 1
+07/18/2024 11:22:54 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:54 - logger - INFO - metadata already exists
+07/18/2024 11:22:54 - logger - INFO - trying to upload frame 425 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 426 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 427 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 428 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 429 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 430 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 431 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 432 of video 1
+07/18/2024 11:22:55 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:55 - logger - INFO - metadata already exists
+07/18/2024 11:22:55 - logger - INFO - trying to upload frame 433 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 434 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 435 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 436 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 437 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 438 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 439 of video 1
+07/18/2024 11:22:56 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:56 - logger - INFO - metadata already exists
+07/18/2024 11:22:56 - logger - INFO - trying to upload frame 440 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 441 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 442 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 443 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 444 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 445 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:57 - logger - INFO - metadata already exists
+07/18/2024 11:22:57 - logger - INFO - trying to upload frame 446 of video 1
+07/18/2024 11:22:57 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 447 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 448 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 449 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 450 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 451 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 452 of video 1
+07/18/2024 11:22:58 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:58 - logger - INFO - metadata already exists
+07/18/2024 11:22:58 - logger - INFO - trying to upload frame 453 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 454 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 455 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 456 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 457 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 458 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 459 of video 1
+07/18/2024 11:22:59 - logger - INFO - trying to add metadata to db
+07/18/2024 11:22:59 - logger - INFO - metadata already exists
+07/18/2024 11:22:59 - logger - INFO - trying to upload frame 460 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 461 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 462 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 463 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 464 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 465 of video 1
+07/18/2024 11:23:00 - logger - INFO - trying to add metadata to db
+07/18/2024 11:23:00 - logger - INFO - metadata already exists
+07/18/2024 11:23:00 - logger - INFO - trying to upload frame 466 of video 1
+07/18/2024 11:23:00 - logger - INFO - frames added to os
+07/18/2024 11:23:00 - logger - INFO - success uploading video TelAviv_15_06_34_12_06_00.mp4
