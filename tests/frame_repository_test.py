@@ -93,7 +93,7 @@ def test_get_frame_invalid_input(db_session):
 
 @pytest.mark.xfail
 def test_get_frame_non_existing_video(db_session):
-    video_id = 4
+    video_id = 10000
     frame_index = 212
 
     try:

@@ -1,6 +1,5 @@
 import pytest
 from sqlalchemy.exc import IntegrityError
-
 from models import Video
 from test_database import db_session, db_engine
 from repositories.video_repository import create_video_repo, get_video_path_repo
@@ -69,7 +68,7 @@ def test_get_video_path_null_value(db_session):
 
 @pytest.mark.xfail
 def test_get_video_path_non_existing_video(db_session):
-    video_id = 7
+    video_id = 10000
 
     try:
         get_video_path_repo(video_id, db_session)
