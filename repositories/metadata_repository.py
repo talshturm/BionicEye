@@ -4,7 +4,7 @@ from models.metadata import Metadata
 from logger import logger
 
 
-def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> (
+async def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation: float, db: Session) -> (
         Type[Metadata] | Metadata):
     logger.info("trying to add metadata to db")
     existing_metadata = get_existing_metadata(tag, fov, azimuth, elevation, db)

@@ -20,7 +20,7 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
         "frame_count": frame_count
     }
 
-    video = create_video_repo(video_data, db)
+    video = await create_video_repo(video_data, db)
 
     for index, frame in enumerate(frames):
         await create_frame_service(index, frame, video.id, db)
@@ -30,13 +30,13 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
     return {"message": "Video uploaded successfully"}
 
 
-def get_paths_service(db: Session) -> list[str]:
-    return get_paths_repo(db)
+async def get_paths_service(db: Session) -> list[str]:
+    return await get_paths_repo(db)
 
 
-def get_video_path_service(video_id: int, db: Session) -> str:
-    return get_video_path_repo(video_id, db)
+async def get_video_path_service(video_id: int, db: Session) -> str:
+    return await get_video_path_repo(video_id, db)
 
 
-def remove_video_service(video_path: str) -> None:
+async def remove_video_service(video_path: str) -> None:
     remove_video_from_os(video_path)

@@ -8,6 +8,6 @@ async def create_metadata_service(frame, db: Session) -> Metadata:
     fov, azimuth, elevation = generate_metadata(frame)
     tag = is_frame_tagged(frame)
 
-    metadata = create_metadata_repo(tag, fov, azimuth, elevation, db)
+    metadata = await create_metadata_repo(tag, fov, azimuth, elevation, db)
 
     return metadata

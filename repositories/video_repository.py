@@ -3,7 +3,7 @@ from models.video import Video
 from logger import logger
 
 
-def create_video_repo(video_data: dict, db: Session) -> Video:
+async def create_video_repo(video_data: dict, db: Session) -> Video:
     logger.info(f"trying to upload video of observation point {video_data["observation_point"]}")
     db_video = Video(
         observation_point=video_data["observation_point"],
@@ -16,12 +16,12 @@ def create_video_repo(video_data: dict, db: Session) -> Video:
     return db_video
 
 
-def get_paths_repo(db: Session) -> list[str]:
+async def get_paths_repo(db: Session) -> list[str]:
     logger.info("trying to fetch all videos paths")
     video_paths = db.query(Video.os_path).all()
     return [path[0] for path in video_paths]
 
 
-def get_video_path_repo(video_id, db: Session) -> str:
+async def get_video_path_repo(video_id, db: Session) -> str:
     logger.info(f"trying to fetch path of video with id {video_id}")
     return db.query(Video.os_path).filter_by(id=video_id).first()[0]
