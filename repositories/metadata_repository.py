@@ -12,7 +12,7 @@ async def create_metadata_repo(tag: bool, fov: float, azimuth: float, elevation:
     existing_metadata = await get_existing_metadata(tag, fov, azimuth, elevation, db)
     if existing_metadata:
         logger.info("metadata already exists")
-        return await existing_metadata
+        return existing_metadata
 
     metadata = Metadata(frame_tag=tag, fov=fov, azimuth=azimuth, elevation=elevation)
     db.add(metadata)

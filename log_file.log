@@ -3079,3 +3079,60 @@ WHERE frames.video_id = $1::INTEGER AND frames.frame_index = $2::INTEGER
 07/18/2024 06:45:58 - logger - INFO - success fetching path of video with id 1
 07/18/2024 06:48:40 - logger - INFO - success fetching path of video with id 1
 07/18/2024 06:48:59 - logger - ERROR - error fetching videos
+07/18/2024 06:51:04 - logger - INFO - Trying to fetch all video paths
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - SELECT videos.os_path 
+FROM videos
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - [generated in 0.00023s] ()
+07/18/2024 06:51:04 - logger - INFO - success fetching 2 videos
+07/18/2024 06:51:04 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:51:09 - logger - INFO - Trying to fetch path of video with id 1
+07/18/2024 06:51:09 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:51:09 - sqlalchemy.engine.Engine - INFO - SELECT videos.os_path 
+FROM videos 
+WHERE videos.id = $1::INTEGER
+07/18/2024 06:51:09 - sqlalchemy.engine.Engine - INFO - [generated in 0.00020s] (1,)
+07/18/2024 06:51:09 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:51:09 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:51:27 - logger - INFO - success removing video TelAviv_15_06_34_12_06_00.mp4 from os
+07/21/2024 09:42:26 - logger - INFO - Trying to fetch all video paths
+07/21/2024 09:42:26 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/21/2024 09:42:26 - sqlalchemy.engine.Engine - INFO - SELECT videos.os_path 
+FROM videos
+07/21/2024 09:42:26 - sqlalchemy.engine.Engine - INFO - [cached since 2.263e+05s ago] ()
+07/21/2024 09:42:26 - logger - INFO - success fetching 2 videos
+07/21/2024 09:42:26 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/21/2024 09:43:34 - logger - INFO - Trying to fetch path of video with id 2
+07/21/2024 09:43:34 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/21/2024 09:43:34 - sqlalchemy.engine.Engine - INFO - SELECT videos.os_path 
+FROM videos 
+WHERE videos.id = $1::INTEGER
+07/21/2024 09:43:34 - sqlalchemy.engine.Engine - INFO - [cached since 2.264e+05s ago] (2,)
+07/21/2024 09:43:34 - logger - ERROR - error fetching path of video with id 2
+07/21/2024 09:43:34 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/21/2024 09:43:55 - logger - INFO - Trying to fetch path of video with id 21
+07/21/2024 09:43:55 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/21/2024 09:43:55 - sqlalchemy.engine.Engine - INFO - SELECT videos.os_path 
+FROM videos 
+WHERE videos.id = $1::INTEGER
+07/21/2024 09:43:55 - sqlalchemy.engine.Engine - INFO - [cached since 2.264e+05s ago] (21,)
+07/21/2024 09:43:55 - logger - INFO - success fetching path of video with id 21
+07/21/2024 09:43:55 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/21/2024 09:58:28 - logger - INFO - Trying to fetch path of video with id 21
+07/21/2024 09:58:28 - logger - INFO - success fetching path of video with id 21
+07/21/2024 10:43:50 - logger - INFO - Trying to fetch path of video with id 21
+07/21/2024 10:43:50 - logger - INFO - success fetching path of video with id 21
+07/21/2024 10:56:35 - logger - INFO - Trying to fetch path of video with id 21
+07/21/2024 10:56:36 - logger - INFO - success fetching path of video with id 21
+07/21/2024 10:56:40 - logger - INFO - Trying to fetch all video paths
+07/21/2024 10:56:40 - logger - INFO - success fetching 2 videos
+07/21/2024 04:19:59 - logger - INFO - Trying to fetch path of video with id 1
+07/21/2024 04:20:00 - logger - INFO - success fetching path of video with id 1
+07/21/2024 04:20:06 - logger - INFO - Trying to fetch path of video with id 26
+07/21/2024 04:20:06 - logger - INFO - success fetching path of video with id 26
