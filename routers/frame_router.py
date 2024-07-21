@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import Session
 from database import get_db
 from controllers.frame_controller import get_video_frames, get_frame, remove_frames
@@ -8,7 +9,7 @@ router = APIRouter(prefix="/videos/{video_id}/frames")
 
 
 @router.get("/")
-async def get_frames_paths(video_id: int, db: Session = Depends(get_db)) -> list[str]:
+async def get_frames_paths(video_id: int, db: AsyncSession = Depends(get_db)) -> list[str]:
     try:
         frames_paths = await get_video_frames(video_id, db)
         logger.info(f"success fetching {len(frames_paths)} frames of video {video_id}")
@@ -19,7 +20,7 @@ async def get_frames_paths(video_id: int, db: Session = Depends(get_db)) -> list
 
 
 @router.get("/{frame_index}")
-async def get_frame_path(video_id: int, frame_index: int, db: Session = Depends(get_db)) -> str:
+async def get_frame_path(video_id: int, frame_index: int, db: AsyncSession = Depends(get_db)) -> str:
     try:
         frame_paths = await get_frame(video_id, frame_index, db)
         logger.info(f"success fetching frame {frame_index} of video {video_id}")
@@ -30,7 +31,7 @@ async def get_frame_path(video_id: int, frame_index: int, db: Session = Depends(
 
 
 @router.delete("/threats")
-async def remove_threat_frames(video_id: int, db: Session = Depends(get_db)) -> dict[str, str]:
+async def remove_threat_frames(video_id: int, db: AsyncSession = Depends(get_db)) -> dict[str, str]:
     try:
         await remove_frames(video_id, db)
         logger.info(f"success removing threat frames of video {video_id} from os")

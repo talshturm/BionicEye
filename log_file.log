@@ -2776,3 +2776,306 @@
 07/18/2024 04:29:38 - logger - INFO - success fetching frame 100 of video 21
 07/18/2024 04:29:52 - logger - INFO - trying to remove 25 frames tagged as threats of video 21 from os
 07/18/2024 04:29:53 - logger - INFO - success removing threat frames of video 21 from os
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [generated in 0.00035s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [cached since 0.01086s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - [cached since 0.01182s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:17:25 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:17:48 - logger - INFO - trying to fetch frames of video 21
+07/18/2024 06:17:48 - logger - ERROR - error fetching frames of video 21
+07/18/2024 06:18:08 - logger - ERROR - error fetching videos
+07/18/2024 06:18:19 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:18:22 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [generated in 0.00029s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [cached since 0.007724s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - [cached since 0.008617s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:19:41 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:19:45 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:19:48 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [cached since 0.006424s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - [cached since 0.007402s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:21:13 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:21:20 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:21:22 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:22:17 - logger - INFO - trying to fetch frames of video 1
+07/18/2024 06:22:17 - logger - ERROR - error fetching frames of video 1
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [cached since 0.006126s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - [cached since 0.007046s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:23:37 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:23:41 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [generated in 0.00030s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [cached since 0.009374s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - [cached since 0.01044s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:24:51 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:24:56 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:24:59 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [generated in 0.00074s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [cached since 0.008776s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - [cached since 0.009923s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:25:08 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:25:12 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [generated in 0.00027s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [cached since 0.007802s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - [cached since 0.00912s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:30:31 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:30:35 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:30:48 - logger - INFO - trying to fetch frames of video 1
+07/18/2024 06:30:48 - logger - ERROR - error fetching frames of video 1
+07/18/2024 06:30:56 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:30:56 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:31:00 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:31:00 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [generated in 0.00030s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [cached since 0.006409s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - [cached since 0.007371s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:32:50 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:32:53 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:32:53 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [cached since 0.006765s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - [cached since 0.007794s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:33:45 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [generated in 0.00030s] ('frames', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [cached since 0.007704s ago] ('metadata', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - [cached since 0.008942s ago] ('videos', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
+07/18/2024 06:38:13 - sqlalchemy.engine.Engine - INFO - COMMIT
+07/18/2024 06:38:18 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:38:18 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:39:44 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:39:44 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - SELECT frames.os_path 
+FROM frames JOIN metadata ON metadata.id = frames.frame_metadata_id 
+WHERE frames.video_id = $1::INTEGER AND metadata.frame_tag
+07/18/2024 06:42:01 - sqlalchemy.engine.Engine - INFO - [generated in 0.00088s] (1,)
+07/18/2024 06:42:01 - logger - INFO - Trying to remove 25 frames of video 1 tagged as threats from OS
+07/18/2024 06:42:02 - logger - INFO - success removing threat frames of video 1 from os
+07/18/2024 06:42:02 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:44:05 - logger - INFO - Trying to fetch frames of video 1
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - SELECT frames.os_path 
+FROM frames 
+WHERE frames.video_id = $1::INTEGER
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - [generated in 0.00037s] (1,)
+07/18/2024 06:44:05 - logger - INFO - success fetching 467 frames of video 1
+07/18/2024 06:44:05 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:44:21 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:44:21 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:44:44 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - SELECT frames.os_path 
+FROM frames 
+WHERE frames.video_id = $1::INTEGER AND frames.frame_index = $2::INTEGER
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - [generated in 0.00028s] (1, 12)
+07/18/2024 06:44:44 - logger - ERROR - error fetching frame 12 of video 1
+07/18/2024 06:44:44 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:44:58 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - SELECT frames.os_path 
+FROM frames 
+WHERE frames.video_id = $1::INTEGER AND frames.frame_index = $2::INTEGER
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - [generated in 0.00043s] (1, 12)
+07/18/2024 06:44:58 - logger - INFO - success fetching frame 12 of video 1
+07/18/2024 06:44:58 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:45:38 - logger - INFO - trying to fetch frame 12 of video 1
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - select current_schema()
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - SELECT frames.os_path 
+FROM frames 
+WHERE frames.video_id = $1::INTEGER AND frames.frame_index = $2::INTEGER
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] (1, 12)
+07/18/2024 06:45:38 - logger - INFO - success fetching frame 12 of video 1
+07/18/2024 06:45:38 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+07/18/2024 06:45:58 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:48:40 - logger - INFO - success fetching path of video with id 1
+07/18/2024 06:48:59 - logger - ERROR - error fetching videos

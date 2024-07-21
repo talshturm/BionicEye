@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import Session
 from database import get_db
 from controllers.video_controller import upload_video, get_paths, get_video_path, remove_video
@@ -8,7 +9,7 @@ router = APIRouter(prefix="/videos")
 
 
 @router.post("/{local_path}")
-async def upload(local_path: str, db: Session = Depends(get_db)) -> dict[str, str]:
+async def upload(local_path: str, db: AsyncSession = Depends(get_db)) -> dict[str, str]:
     try:
         await upload_video(local_path, db)
         logger.info(f"success uploading video {local_path}")
@@ -19,9 +20,9 @@ async def upload(local_path: str, db: Session = Depends(get_db)) -> dict[str, st
 
 
 @router.get("/")
-def get_all_paths(db: Session = Depends(get_db)) -> list[str]:
+async def get_all_paths(db: AsyncSession = Depends(get_db)) -> list[str]:
     try:
-        video_paths = get_paths(db)
+        video_paths = await get_paths(db)
         logger.info(f"success fetching {len(video_paths)} videos")
         return video_paths
     except Exception as e:
@@ -30,9 +31,9 @@ def get_all_paths(db: Session = Depends(get_db)) -> list[str]:
 
 
 @router.get("/{video_id}")
-def get_video(video_id: int, db: Session = Depends(get_db)) -> str:
+async def get_video(video_id: int, db: AsyncSession = Depends(get_db)) -> str:
     try:
-        video_path = get_video_path(video_id, db)
+        video_path = await get_video_path(video_id, db)
         logger.info(f"success fetching path of video with id {video_id}")
         return video_path
     except Exception as e:
@@ -41,9 +42,9 @@ def get_video(video_id: int, db: Session = Depends(get_db)) -> str:
 
 
 @router.delete("/{video_path}")
-def remove_video_from_os(video_path: str) -> dict[str, str]:
+async def remove_video_from_os(video_path: str) -> dict[str, str]:
     try:
-        remove_video(video_path)
+        await remove_video(video_path)
         logger.info(f"success removing video {video_path} from os")
         return {"message": "Video removed successfully"}
     except Exception as e:

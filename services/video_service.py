@@ -1,12 +1,12 @@
 import os
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
 from repositories.video_repository import create_video_repo, get_paths_repo, get_video_path_repo
 from utils.process_functions import extract_frames, upload_video_to_os, remove_video_from_os
 from services.frame_service import create_frame_service
 from logger import logger
 
 
-async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
+async def upload_video_service(local_path: str, db: AsyncSession) -> dict[str, str]:
     frames = extract_frames(local_path)
     observation_point = os.path.basename(local_path).split("_")[0]
     frame_count = len(frames)
@@ -30,11 +30,11 @@ async def upload_video_service(local_path: str, db: Session) -> dict[str, str]:
     return {"message": "Video uploaded successfully"}
 
 
-async def get_paths_service(db: Session) -> list[str]:
+async def get_paths_service(db: AsyncSession) -> list[str]:
     return await get_paths_repo(db)
 
 
-async def get_video_path_service(video_id: int, db: Session) -> str:
+async def get_video_path_service(video_id: int, db: AsyncSession) -> str:
     return await get_video_path_repo(video_id, db)
 
 
